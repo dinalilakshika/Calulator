@@ -11,10 +11,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("assets/images/red-light-round-podium-black-background-mock-up_43614-950.avif");
 }
 
 .calculator{
-    background: #2a152a;
+    background-image: url("assets/images/red-light-round-podium-black-background-mock-up_43614-950.avif");
     padding: 20px;
     border-radius: 10px;
 }
@@ -25,7 +26,7 @@
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    box-shadow: -8px -8px 15px rgb(70, 25, 25),5px 5px 15px rgb(255, 34, 74);
     background: transparent;
     font-size: 20px;
     color: white;
