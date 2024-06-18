@@ -1,17 +1,17 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("assets/images/red-light-round-podium-black-background-mock-up_43614-950.avif");
 }
 
 .container{
-    width: 100%;
     height: 100vh;
-    background: aquamarine;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("assets/images/red-light-round-podium-black-background-mock-up_43614-950.avif");
 }
 
 .calculator{
@@ -20,37 +20,28 @@
     border-radius: 10px;
 }
 
-.calculator form input{
-    border: 0;
-    outline: 0;
+.calculator input{
+    height: 55px;
     width: 60px;
-    height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgb(70, 25, 25),5px 5px 15px rgb(255, 34, 74);
+    margin: 10px;
+    cursor: pointer;
     background: transparent;
     font-size: 20px;
     color: white;
-    cursor: pointer;
-    margin: 10px;
 }
 
-form.display{
+.display{
     display: flex;
-    justify-content:flex-end ;
-    margin: 20px 0;
+    justify-content: flex-end;
+    margin: 20px 0px;
 }
 
-form .display input{
-    text-align: right;
+.display input{
     flex: 1;
-    font-size: 45px;
-    box-shadow: none;
-}
+    text-align: right;
+    font-size: 40px;
+    border: none;
+    outline: none;
 
-form input.equal{
-    width: 145px;
-}
-
-form input.operator{
-    color:dodgerblue ;
 }
